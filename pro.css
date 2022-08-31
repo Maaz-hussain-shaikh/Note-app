@@ -1,0 +1,85 @@
+body{
+    background-color:rgb(237 233 252 / 1)
+}
+.mid-note{
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 4px;
+}
+.mid-wrt{
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 5px;
+}
+#blanknote{
+    text-align: center;
+    font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+    color: rgb(9 30 66);
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+.d-flex {
+    margin-left: 31rem;
+}
+.bg-light{
+    background-color: #a4e9d1!important;
+}
+.contaner {
+    text-align: center;
+    font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+    color: rgb(9 30 66);
+    font-size: 36px;
+    letter-spacing: 11px;
+}
+
+#txt {
+    height: 10rem;
+    width: 41rem;
+    margin: auto;
+    padding: 1.5rem 3rem;
+    background: linear-gradient(rgb(81, 69, 157), rgb(161, 190, 229)) no-repeat;
+    color: rgb(15, 15, 15);
+    border-radius: 1.5rem;
+    
+}
+
+.card{
+       margin: 0.4rem 0.9rem 0.2rem;
+       border-radius: 20px;
+       background-color:#f2edd4;
+}
+ 
+.form-control::placeholder{
+    color: black;
+    opacity: 0.90;
+    font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.navbar-brand{
+letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 701px){
+
+    #txt {
+        height: 10rem;
+        width: 28rem;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #txt {
+        height: 10rem;
+        width: 20rem;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 370px){
+    #txt {
+        height: 10rem;
+        width: 15rem;
+        margin: auto;
+    }
+}
